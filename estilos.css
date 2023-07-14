@@ -1,0 +1,62 @@
+header{
+    background-color: rgb(188, 196, 199);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body{
+    background-image: url(IMAGENES/fondo\ portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+}
+header a{
+    text-decoration: none;
+    color: rgb(71, 154, 189);
+}
+
+#caja{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li a{
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(71, 154, 189);
+    color: aliceblue;
+}
+
+article{
+    padding-top: 6em;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(188, 196, 199);
+}

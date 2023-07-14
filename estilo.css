@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+background-image: url(fondos/11.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.text{
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  color: rgb(6, 74, 104);
+}
+
+footer {
+  background-color: #81b6e7;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+}
+
+.servicios-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  
+.servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #b6def5;
+}
+.servicio:hover{
+  transform: translate(-5px);
+  box-shadow: 1 5px 10px rgb(0, 0, 0);
+}
+.servicio-info {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.servicio-info h2 {
+  background-color: #81b6e7;
+  padding: 20px;
+  margin: 0;
+  border-radius: 15px;
+  width: 270px;
+  height: 20px;
+  color: #fff;
+}
+
+.servicio img {
+  height: 230px;
+  width: 330px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+@font-face {
+  font-family: larke;
+  src: url(larke-neue-regular.ttf);
+}
+h2{
+  font-family: larke;
+  font-size: 25px;
+  margin-top: 100px;
+}
+@font-face {
+  font-family: mono;
+  src: url(nk57-monospace-sc-bk.otf);
+}
+p{
+  font-family: mono;
+}
+header{
+  background-color: rgb(188, 196, 199);
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  padding: 25px;
+}
+
+header a{
+  text-decoration: none;
+  color: rgb(71, 154, 189);
+  font-family: serif;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  font-size: 15px;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li a{
+  padding: 1em;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+nav ul li a:hover{
+  background-color: rgb(71, 154, 189);
+  color: aliceblue;
+}
+
+body{
+  background-image: url(fondo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
